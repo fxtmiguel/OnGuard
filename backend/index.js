@@ -14,7 +14,7 @@ const folderToWatch = path.resolve("C:/users/migue/testfolder");
 const trackedFiles = {};
 let logEntries = [];
 
-const filesAutoDeleted = new Set(); // Keeping track of files we auto-removed (just in case)
+const filesAutoDeleted = new Set(); // Keeping track of files we auto-removed 
 
 function delay(ms) {
   return new Promise(res => setTimeout(res, ms));
